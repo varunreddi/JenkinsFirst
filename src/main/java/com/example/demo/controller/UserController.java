@@ -8,6 +8,6 @@ public class UserController {
 
 	@GetMapping("/info")
 	public String appInfo() {
-		return "hello";
+		return "hello added..";
 	}
 }
